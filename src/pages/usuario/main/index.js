@@ -30,10 +30,11 @@ export default class Main extends Component {
 
 
                 <div key={index}>
-                 <h3>{usuario.nome}</h3>
+                 <h3>Nome:{usuario.nome}</h3>
                  <article>
-                 <strong>{new Intl.NumberFormat('pt-BR', {style: 'currency',currency: 'BRL'}).format(usuario.salario)}</strong>
-                 <p><Link to={`/usuario/${usuario.id}`}>Detalhes</Link></p>
+                 <strong>Salario: {new Intl.NumberFormat('pt-BR', {style: 'currency',currency: 'BRL'}).format(usuario.salario)}</strong>
+                 <p class="btn-secondary"><Link to={`/usuario/${usuario.id}`}>Detalhes</Link></p>
+                 
                  <br/>
                  </article>
  

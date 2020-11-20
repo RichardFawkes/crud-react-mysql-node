@@ -28,8 +28,9 @@ class CriarUsuario extends Component {
 
             <form onSubmit = {this.handleSubmit}>
                <fieldset>
-                   <legend>Criar Usuario</legend>
                    <div className="usuario-insert">
+                   <legend>Criar Usuario</legend>
+
                        <label htmlFor="nome">Nome</label>
                        <br />
                        <input 
@@ -108,10 +109,11 @@ class CriarUsuario extends Component {
                            Inativo
                        </label>
 
-                     
-
+                     <br></br>
+                       <button class=" col-lg-12 btn btn-success large" type="submit">Cadastrar</button>
+<br></br>
+<br></br>
                    </div>
-                   <button class="btn btn-success" type="submit">Cadastrar</button>
 
 
                </fieldset>

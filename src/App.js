@@ -1,6 +1,10 @@
 import Header from '../src/components/header/header';
 import Footer from '../src/components/footer/footer';
-import Routes from './routes';
+import { faHome } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";import Routes from './routes';
+import ReactDOM from 'react-dom'
+
+
 
 function App() {
   return (
@@ -8,7 +12,6 @@ function App() {
 <Header />
 <Routes />
 
-<br></br>
 
 <Footer />
     </div>
