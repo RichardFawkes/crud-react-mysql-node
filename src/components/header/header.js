@@ -3,7 +3,7 @@ import './header.css';
 
 
 const Header = () => (
-    <header id="main-header">Sistema 1.0!!!!!!</header>
+    <header id="main-header">Sistema React Crud</header>
     
 
 
